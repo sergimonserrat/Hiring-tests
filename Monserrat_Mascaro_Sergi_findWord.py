@@ -5,6 +5,11 @@ Created on Thu May 12 13:32:22 2022
 @author: Sergi
 """
 
+'''
+This code was presented as part of a hiring process. The problem consisted in arranging correctly the characters in a word from a list of ordering relations
+between the characters. Read the comments and execute the code for further comprehension.
+'''
+
 def StringInsertion(string, inserted, index):
     '''
     Function that inserts a string at a particular point in another string
@@ -60,11 +65,11 @@ def findWord(chars):
             i = i+1
     return Word
             
-chars1 = ['P>E','E>R','R>U']
-chars2 = ["I>N","A>I","P>A","S>P"]
-chars3 = ["I>F", "W>I", "S>W", "F>T"]
-chars4 = ["R>T", "A>L", "P>O", "O>R", "G>A", "T>U", "U>G"]
-chars5 = ["A>S", "C>A", "S>A"]
+chars1 = ['P>E','E>R','R>U'] #PERU
+chars2 = ["I>N","A>I","P>A","S>P"] #SPAIN
+chars3 = ["I>F", "W>I", "S>W", "F>T"] #SWIFT
+chars4 = ["R>T", "A>L", "P>O", "O>R", "G>A", "T>U", "U>G"] #PORTUGAL
+chars5 = ["A>S", "C>A", "S>A"] #CASA
 
 print(findWord(chars1))
 print(findWord(chars2))
